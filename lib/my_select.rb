@@ -6,7 +6,7 @@ def my_select(collection)
    if yield(collection[i])
      selections.push(collection[1])
    end
-    i += 1
+   i += 1
  end
  selections
 end
